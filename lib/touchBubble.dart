@@ -3,20 +3,20 @@ import 'package:flutter/material.dart';
 class TouchBubble extends StatelessWidget {
   TouchBubble({
     @required this.position,
-    @required this.onStartDragging, //novo
-    @required this.onDrag,          //novo
-    @required this.onEndDragging,   //novo
-    @required this.bubbleSize,      //novo
-  })  : assert(onStartDragging != null),              //novo
-        assert(onDrag != null),                       //novo
-        assert(onEndDragging != null),                //novo
-        assert(bubbleSize != null && bubbleSize > 0); //novo
+    @required this.onStartDragging,
+    @required this.onDrag,
+    @required this.onEndDragging,
+    @required this.bubbleSize,
+  })  : assert(onStartDragging != null),
+        assert(onDrag != null),
+        assert(onEndDragging != null),
+        assert(bubbleSize != null && bubbleSize > 0);
 
   final Offset position;
   final double bubbleSize;
-  final Function onStartDragging; //novo
-  final Function onDrag;          //novo
-  final Function onEndDragging;   //novo
+  final Function onStartDragging;
+  final Function onDrag;
+  final Function onEndDragging;
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +24,9 @@ class TouchBubble extends StatelessWidget {
         top: position == null ? 0 : position.dy - bubbleSize / 2,
         left: position == null ? 0 : position.dx - bubbleSize / 2,
         child: GestureDetector(
-            onPanStart: (details) => onStartDragging(details.globalPosition), //novo
-            onPanUpdate: (details) => onDrag(details.globalPosition),         //novo
-            onPanEnd: (_) => onEndDragging(),                                 //novo
+            onPanStart: (details) => onStartDragging(details.globalPosition),
+            onPanUpdate: (details) => onDrag(details.globalPosition),
+            onPanEnd: (_) => onEndDragging(),
             child: Container(
               width: bubbleSize,
               height: bubbleSize,

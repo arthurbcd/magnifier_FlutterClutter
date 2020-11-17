@@ -8,8 +8,8 @@ class Magnifier extends StatefulWidget {
       {@required this.child,
       @required this.position,
       this.visible = true,
-      this.scale = 1.5, //Quantidade de Zoom
-      this.size = const Size(160, 160) //Tamanho da Lupa
+      this.scale = 1.5,
+      this.size = const Size(160, 160)
       })
       : assert(child != null);
 
@@ -50,8 +50,7 @@ class _MagnifierState extends State<Magnifier> {
       children: [
         widget.child,
         if (widget.visible && widget.position != null)
-          // Container(height: 50, width: 50,) //TEMPORARIO
-          _getMagnifier(context)
+               _getMagnifier(context)
       ],
     );
   }

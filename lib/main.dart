@@ -37,7 +37,7 @@ class _SampleImageState extends State<SampleImage> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Magnifier( //Ele tirou o Magnifier
+        Magnifier(
           position: position,
           visible: magnifierVisible,
           child: Image(image: AssetImage('assets/lenna.png')),
@@ -45,29 +45,29 @@ class _SampleImageState extends State<SampleImage> {
         TouchBubble(
           position: position,
           bubbleSize: currentBubbleSize,
-          onStartDragging: _startDragging, //NOVO
-          onDrag: _drag,                   //NOVO
-          onEndDragging: _endDragging,     //NOVO
+          onStartDragging: _startDragging,
+          onDrag: _drag,
+          onEndDragging: _endDragging,
         ),
       ],
     );
   }
-  void _startDragging(Offset newPosition) {           //NOVO
+  void _startDragging(Offset newPosition) {
     setState(() {
       magnifierVisible = true;
       position = newPosition;
       currentBubbleSize = touchBubbleSize * 1.5;
     });
   }
-  void _drag(Offset newPosition) {                    //NOVO
+  void _drag(Offset newPosition) {
     setState(() {
       position = newPosition;
     });
   }
   void _endDragging() {
     setState(() {
-      currentBubbleSize = touchBubbleSize;            //NOVO
+      currentBubbleSize = touchBubbleSize;
       magnifierVisible = false;
     });
   }
-} //NÃO TENHO CERTEZA ESSA CHAVE É AQUI
+}
