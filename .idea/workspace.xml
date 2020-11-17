@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a2bbebe-7b1b-4940-b898-d3263f022991" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kOAfxAZevZkmQDWOvQPnhaNUVc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arthu\StudioProjects\branvier_magnifier\assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a2bbebe-7b1b-4940-b898-d3263f022991" name="Default Changelist" comment="" />
+      <created>1605561370409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605561370409</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="79" y="179" key="#Plugins" timestamp="1605575230034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="79" y="179" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1605575230034" />
+    <state x="201" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605574430580">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="201" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605574430580" />
+    <state x="225" y="159" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1605575101698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="225" y="159" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605575101698" />
+    <state x="456" y="565" key="#main.dart" timestamp="1605561499043">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="456" y="565" key="#main.dart/0.0.3072.1688@0.0.3072.1688" timestamp="1605561499043" />
+    <state width="914" height="148" key="GridCell.Tab.0.bottom" timestamp="1605574508220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="148" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605574508220" />
+    <state width="1490" height="493" key="GridCell.Tab.0.bottom/0.0.3072.1688@0.0.3072.1688" timestamp="1605562668714" />
+    <state width="914" height="148" key="GridCell.Tab.0.center" timestamp="1605574508220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="148" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605574508220" />
+    <state width="1490" height="493" key="GridCell.Tab.0.center/0.0.3072.1688@0.0.3072.1688" timestamp="1605562668714" />
+    <state width="914" height="148" key="GridCell.Tab.0.left" timestamp="1605574508220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="148" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605574508220" />
+    <state width="1490" height="493" key="GridCell.Tab.0.left/0.0.3072.1688@0.0.3072.1688" timestamp="1605562668713" />
+    <state width="914" height="148" key="GridCell.Tab.0.right" timestamp="1605574508220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="148" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605574508220" />
+    <state width="1490" height="493" key="GridCell.Tab.0.right/0.0.3072.1688@0.0.3072.1688" timestamp="1605562668714" />
+    <state x="0" y="162" width="974" height="716" key="SettingsEditor" timestamp="1605575306328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="162" width="974" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605575306328" />
+  </component>
+</project>
